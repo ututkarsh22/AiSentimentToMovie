@@ -8,7 +8,7 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT;
 app.use(cors({
-  origin : "https://ai-sentiment-to-movie.vercel.app/",
+  origin : "https://ai-sentiment-to-movie.vercel.app",
   credentials : true,
 }));
 app.use(express.json());
